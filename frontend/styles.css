@@ -1,0 +1,211 @@
+html {
+  font-family: sans-serif;
+}
+html,
+body {
+  margin: 0;
+}
+body {
+  background: #eee6e6;
+  color: #555;
+  display: flex;
+  flex-direction: column;
+}
+#tittleApp {
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 15px;
+  font-size: 1.5rem;
+  box-shadow: 0 0 10px #bcb4b4;
+  height: 5rem;
+  line-height: 5rem;
+}
+#content {
+  background-color: rgb(255, 255, 255);
+  margin: 3rem 2rem;
+  box-shadow: 0 0 10px #bcb4b4;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 10px #ddd;
+  flex-direction: column;
+  align-items: center;
+  position: static;
+}
+
+#login {
+  display: flex;
+  margin: 35px 0;
+  flex-direction: column;
+  width: 450px;
+  background-color: rgb(255, 255, 255);
+}
+.showPassword {
+  display: flex;
+}
+.alertContent {
+  display: flex;
+  width: auto;
+  padding: 0.5rem 1rem;
+  color: white;
+  position: fixed;
+  right: 0px;
+  gap: 1rem;
+  font-size: 1rem;
+  box-shadow: -1px 7px 14px 0px rgb(124 118 118 / 69%);
+  align-items: center;
+  justify-content: space-evenly;
+}
+.alertContent span{
+cursor: pointer;
+}
+
+.boxOfCourses {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  padding: 60px;
+  margin: 4px;
+}
+
+.formControl {
+  display: block;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.loginButton {
+  padding: 10px 16px;
+  font-size: 18px;
+  border-radius: 6px;
+  width: 100%;
+  border: 1px solid #ff9d9d00;
+  border-radius: 4px;
+  background: #eecd15c7;
+  border-color: #eecd15c7;
+  color: #fff;
+}
+#loginButton:hover {
+  color: #fff;
+  background: #f6d30c;
+  border-color: #f6d30c;
+}
+.buttonCourse {
+  padding: 10px 16px;
+  font-size: 16px;
+  margin: 10px 0px;
+  margin-right: 10px;
+  border-radius: 6px;
+  width: 60%;
+  border: 1px solid #ff9d9d00;
+  border-radius: 4px;
+  background: #eecd15c7;
+  border-color: #eecd15c7;
+  color: #fff;
+}
+
+.buttonCourse:hover {
+  color: #fff;
+  background: #f6d30c;
+  border-color: #f6d30c;
+}
+
+.buttonPagecourse {
+  display: flex;
+  padding: 10px;
+}
+
+.tableDisciplines {
+  border-collapse: collapse;
+  box-shadow: 20px 10px 20px 0px #c5c5c5;
+}
+
+.tableDisciplines td,
+.tableDisciplines th {
+  border: 1px solid #fff;
+  padding: 8px;
+  width: 12rem;
+  text-align: center;
+}
+
+.tableDisciplines tr:hover {
+  background-color: #f6d30cc4;
+}
+
+.tableDisciplines th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color:  #318a34;
+  color: white;
+  text-align: center;
+}
+#result{
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  padding: 1rem 2rem 5rem 2rem;
+  flex-direction: column;
+}
+
+.course{
+  background-color: #e2e9ef;
+  border: none;
+  width: 100%;
+  height: 3rem;
+  margin-bottom: 40px;
+  color: #4caf50;
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.course option {
+  padding: 10px;
+}
+
+.course option:hover {
+  background-color: #f6d30cc4;
+}
+
+.classSchedule{
+  background-color: #e2e9ef;
+  border: none;
+  width: 100%;
+  height: 3rem;
+  margin-bottom: 40px;
+  color: #5f5e5c;
+  font-size: 1rem;
+  text-align: center;
+}
+#footer{
+  background-color: #ffffff;
+  position: fixed;
+  color: #ff0479;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+#buttonRemove{
+  border: 2px solid #318a34;
+  color: #318a34;
+  width: 1.5rem;
+  font-size: 15px;
+  height: 1.5rem;
+  cursor: pointer;
+}
+#buttonRemove:hover {
+  color: #ffffff;
+  background-color: #318a34;
+}

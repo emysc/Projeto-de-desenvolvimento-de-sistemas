@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>CRD</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <h1 id="tittleApp">Portal de cadastro de matérias</h1>
+    <div id="content">
+      <div id="login">
+        <label for="user">Usuário</label>
+        <input
+          class="formControl"
+          type="text"
+          id="user"
+          placeholder="Digite o seu usuário"
+        />
+        <label for="password">Senha</label>
+        <input
+          class="formControl"
+          type="password"
+          id="password"
+          placeholder="Digite sua senha"
+        />
+
+        <div class="showPassword">
+          <input type="checkbox" onclick="showPassword()" id="showPassword" />
+          <label for="showPassword">Mostrar senha</label>
+        </div>
+
+        <button class="loginButton" onclick="login()">Entrar</button>
+        
+      </div>
+    </div>
+  </body>
+  <footer id="footer"> 💕 💓 💖 Desenvolvido por Emilly 💗 💘 💙 </footer>
+</html>
