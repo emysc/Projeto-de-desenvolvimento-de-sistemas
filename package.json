@@ -9,10 +9,9 @@
   "scripts": {
     "dev": "backend/app.js start",
     "start": "serve -s build",
-    "build": "backend/app.js build",
     "test": "backend/app.js test",
     "eject": "backend/app.js eject",
-    "heroku-postbuild": "npm run build"
+    "heroku-postbuild": "npm run app.js build"
   },
   "author": "",
   "license": "ISC",
