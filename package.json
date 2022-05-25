@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "backend/app.js start",
     "start": "serve -s build",
     "build": "backend/app.js build",
     "test": "backend/app.js test",
