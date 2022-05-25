@@ -7,7 +7,8 @@
     "start": "serve -s build",
     "build": "backend/app.js build",
     "test": "backend/app.js test",
-    "eject": "backend/app.js eject"
+    "eject": "backend/app.js eject",
+    "heroku-postbuild": "npm run build"
   },
   "author": "",
   "license": "ISC",
