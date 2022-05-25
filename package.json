@@ -1,8 +1,11 @@
 {
   "name": "projetodesenvolvimentosistmas2",
-  "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "version": "1.0.0",
+  "engines": {
+    "node": "16.x"
+  },
   "scripts": {
     "dev": "backend/app.js start",
     "start": "serve -s build",
