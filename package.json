@@ -4,12 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "serve -s build",
-    "dev": "backend/app.js start",
+    "start": "backend/app.js start",
     "build": "backend/app.js build",
-    "eject": "backend/app.js eject",
-    "heroku-postbuild": "npm run build"
+    "test": "backend/app.js test",
+    "eject": "backend/app.js eject"
   },
   "author": "",
   "license": "ISC",
