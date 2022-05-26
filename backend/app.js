@@ -126,7 +126,7 @@ app.delete(
   }
 );
 
-app.listen(3000, function () {
+app.listen(3001, function () {
   console.info("[NODE] O aplicativo está funcionando.");
   pgc = new PostgresConnection();
 });

@@ -8,11 +8,12 @@
   },
   "scripts": {
     "dev": "npm-run-all --parallel open start ",
+    "build": "npm-run-all --parallel open start ",
     "open": "start frontend/index.html",
     "start": "node backend/app start",
     "test": "backend/app test",
     "eject": "backend/app eject",
-    "heroku-postbuild": "npm run dev "
+    "heroku-postbuild": "npm run build "
   },
   "author": "",
   "license": "ISC",
