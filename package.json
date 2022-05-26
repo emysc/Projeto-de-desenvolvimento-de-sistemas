@@ -1,5 +1,5 @@
 {
-  "name": "projetodesenvolvimentosistmas2",
+  "name": "Projeto-de-desenvolvimento-de-sistemas",
   "description": "",
   "main": "index.js",
   "version": "1.0.0",
@@ -7,18 +7,20 @@
     "node": "16.x"
   },
   "scripts": {
-    "dev": "backend/app.js start",
-    "start": "serve -s build",
-    "test": "backend/app.js test",
-    "eject": "backend/app.js eject",
-    "heroku-postbuild": "npm run app.js build"
+    "dev": "npm-run-all --parallel start open",
+    "open": "start frontend/index.html",
+    "start": "node backend/app start",
+    "test": "backend/app test",
+    "eject": "backend/app eject",
+    "heroku-postbuild": "npm run dev"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.2",
-    "pg": "^8.7.1",
-    "serve": "^13.0.2"
+    "npm-run-all": "^4.1.5",
+    "open": "^8.4.0",
+    "pg": "^8.7.1"
   }
 }

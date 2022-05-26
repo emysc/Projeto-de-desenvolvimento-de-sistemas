@@ -27,6 +27,7 @@ app.post("/login", function (req, res) {
 });
 
 app.get("/course", function (req, res) {
+  course = req.body.course;
 
   pgc
     .executeQuery({
