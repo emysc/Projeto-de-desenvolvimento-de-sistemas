@@ -7,12 +7,12 @@
     "node": "16.x"
   },
   "scripts": {
-    "dev": "npm-run-all --parallel start open",
+    "dev": "npm-run-all --parallel open start ",
     "open": "start frontend/index.html",
     "start": "node backend/app start",
     "test": "backend/app test",
     "eject": "backend/app eject",
-    "heroku-postbuild": "npm run dev"
+    "heroku-postbuild": "npm run dev "
   },
   "author": "",
   "license": "ISC",
